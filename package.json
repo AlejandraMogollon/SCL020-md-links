@@ -1,6 +1,6 @@
 {
-  "name": "md-links",
-  "version": "0.1.0",
+  "name": "@alejandrame/md-links",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/AlejandraMogollon/SCL020-md-links.git"
@@ -12,10 +12,12 @@
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-modules-commonjs": "^7.14.0",
     "babel-jest": "^27.0.1",
+    "eslint": "^8.19.0",
     "serve": "^13.0.2"
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "chalk": "^5.0.1",
     "cheerio": "^1.0.0-rc.12",
     "file-system": "^2.2.2",
     "got": "^12.1.0",
@@ -33,5 +35,9 @@
     "cli.js",
     "functions.js"
   ],
-  "bin": "src/cli/cli.js"
+  "homepage": "https://github.com/AlejandraMogollon/SCL020-md-links#readme",
+  "bin": "src/cli/cli.js",
+  "keywords": [],
+  "author": "Alejandra Mogollon <alejandrame1505@gmail.com>",
+  "license": "ISC"
 }
